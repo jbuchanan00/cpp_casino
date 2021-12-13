@@ -110,13 +110,11 @@ void Blackjack::determine_win(std::string card_val) {
   }*/
 
   if(total_val == 21){
-    std::cout << "Congrats You've Won!" << std::endl;
-  }else if(total_val >= 0 && total_val < 21){
-    //keep playing
+    std::cout << "Congrats You've Got Blackjack!" << std::endl;
   }else if (total_val > 21){
     bust();
   }
-  std::cout << total_val << "||" << std::endl;
+  std::cout << total_val << std::endl;
 }
 
 int Blackjack::card_count(std::string card_val){
@@ -131,7 +129,7 @@ int Blackjack::card_count(std::string card_val){
 }
 
 void Blackjack::bust() {
-  bust_ = true;
+  bust_ = !bust_;
 }
 
 void Blackjack::hit() {
