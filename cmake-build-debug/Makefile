@@ -142,6 +142,102 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\casino.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\casino.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+src\blackjack.obj: src\blackjack.cpp.obj
+.PHONY : src\blackjack.obj
+
+# target to build an object file
+src\blackjack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\casino.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\casino.dir\src\blackjack.cpp.obj
+.PHONY : src\blackjack.cpp.obj
+
+src\blackjack.i: src\blackjack.cpp.i
+.PHONY : src\blackjack.i
+
+# target to preprocess a source file
+src\blackjack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\casino.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\casino.dir\src\blackjack.cpp.i
+.PHONY : src\blackjack.cpp.i
+
+src\blackjack.s: src\blackjack.cpp.s
+.PHONY : src\blackjack.s
+
+# target to generate assembly for a file
+src\blackjack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\casino.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\casino.dir\src\blackjack.cpp.s
+.PHONY : src\blackjack.cpp.s
+
+src\game.obj: src\game.cpp.obj
+.PHONY : src\game.obj
+
+# target to build an object file
+src\game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\casino.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\casino.dir\src\game.cpp.obj
+.PHONY : src\game.cpp.obj
+
+src\game.i: src\game.cpp.i
+.PHONY : src\game.i
+
+# target to preprocess a source file
+src\game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\casino.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\casino.dir\src\game.cpp.i
+.PHONY : src\game.cpp.i
+
+src\game.s: src\game.cpp.s
+.PHONY : src\game.s
+
+# target to generate assembly for a file
+src\game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\casino.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\casino.dir\src\game.cpp.s
+.PHONY : src\game.cpp.s
+
+src\player.obj: src\player.cpp.obj
+.PHONY : src\player.obj
+
+# target to build an object file
+src\player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\casino.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\casino.dir\src\player.cpp.obj
+.PHONY : src\player.cpp.obj
+
+src\player.i: src\player.cpp.i
+.PHONY : src\player.i
+
+# target to preprocess a source file
+src\player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\casino.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\casino.dir\src\player.cpp.i
+.PHONY : src\player.cpp.i
+
+src\player.s: src\player.cpp.s
+.PHONY : src\player.s
+
+# target to generate assembly for a file
+src\player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\casino.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\casino.dir\src\player.cpp.s
+.PHONY : src\player.cpp.s
+
+src\slot.obj: src\slot.cpp.obj
+.PHONY : src\slot.obj
+
+# target to build an object file
+src\slot.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\casino.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\casino.dir\src\slot.cpp.obj
+.PHONY : src\slot.cpp.obj
+
+src\slot.i: src\slot.cpp.i
+.PHONY : src\slot.i
+
+# target to preprocess a source file
+src\slot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\casino.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\casino.dir\src\slot.cpp.i
+.PHONY : src\slot.cpp.i
+
+src\slot.s: src\slot.cpp.s
+.PHONY : src\slot.s
+
+# target to generate assembly for a file
+src\slot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\casino.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\casino.dir\src\slot.cpp.s
+.PHONY : src\slot.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -154,6 +250,18 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/blackjack.obj
+	@echo ... src/blackjack.i
+	@echo ... src/blackjack.s
+	@echo ... src/game.obj
+	@echo ... src/game.i
+	@echo ... src/game.s
+	@echo ... src/player.obj
+	@echo ... src/player.i
+	@echo ... src/player.s
+	@echo ... src/slot.obj
+	@echo ... src/slot.i
+	@echo ... src/slot.s
 .PHONY : help
 
 

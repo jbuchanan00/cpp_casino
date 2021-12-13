@@ -74,17 +74,101 @@ CMakeFiles\casino.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\casino.dir\main.cpp.s /c C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\main.cpp
 <<
 
+CMakeFiles\casino.dir\src\blackjack.cpp.obj: CMakeFiles\casino.dir\flags.make
+CMakeFiles\casino.dir\src\blackjack.cpp.obj: ..\src\blackjack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/casino.dir/src/blackjack.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\casino.dir\src\blackjack.cpp.obj /FdCMakeFiles\casino.dir\ /FS -c C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\src\blackjack.cpp
+<<
+
+CMakeFiles\casino.dir\src\blackjack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/src/blackjack.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\casino.dir\src\blackjack.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\src\blackjack.cpp
+<<
+
+CMakeFiles\casino.dir\src\blackjack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/src/blackjack.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\casino.dir\src\blackjack.cpp.s /c C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\src\blackjack.cpp
+<<
+
+CMakeFiles\casino.dir\src\game.cpp.obj: CMakeFiles\casino.dir\flags.make
+CMakeFiles\casino.dir\src\game.cpp.obj: ..\src\game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/casino.dir/src/game.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\casino.dir\src\game.cpp.obj /FdCMakeFiles\casino.dir\ /FS -c C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\src\game.cpp
+<<
+
+CMakeFiles\casino.dir\src\game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/src/game.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\casino.dir\src\game.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\src\game.cpp
+<<
+
+CMakeFiles\casino.dir\src\game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/src/game.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\casino.dir\src\game.cpp.s /c C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\src\game.cpp
+<<
+
+CMakeFiles\casino.dir\src\player.cpp.obj: CMakeFiles\casino.dir\flags.make
+CMakeFiles\casino.dir\src\player.cpp.obj: ..\src\player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/casino.dir/src/player.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\casino.dir\src\player.cpp.obj /FdCMakeFiles\casino.dir\ /FS -c C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\src\player.cpp
+<<
+
+CMakeFiles\casino.dir\src\player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/src/player.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\casino.dir\src\player.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\src\player.cpp
+<<
+
+CMakeFiles\casino.dir\src\player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/src/player.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\casino.dir\src\player.cpp.s /c C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\src\player.cpp
+<<
+
+CMakeFiles\casino.dir\src\slot.cpp.obj: CMakeFiles\casino.dir\flags.make
+CMakeFiles\casino.dir\src\slot.cpp.obj: ..\src\slot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/casino.dir/src/slot.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\casino.dir\src\slot.cpp.obj /FdCMakeFiles\casino.dir\ /FS -c C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\src\slot.cpp
+<<
+
+CMakeFiles\casino.dir\src\slot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/casino.dir/src/slot.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\casino.dir\src\slot.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\src\slot.cpp
+<<
+
+CMakeFiles\casino.dir\src\slot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/casino.dir/src/slot.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\casino.dir\src\slot.cpp.s /c C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\src\slot.cpp
+<<
+
 # Object files for target casino
 casino_OBJECTS = \
-"CMakeFiles\casino.dir\main.cpp.obj"
+"CMakeFiles\casino.dir\main.cpp.obj" \
+"CMakeFiles\casino.dir\src\blackjack.cpp.obj" \
+"CMakeFiles\casino.dir\src\game.cpp.obj" \
+"CMakeFiles\casino.dir\src\player.cpp.obj" \
+"CMakeFiles\casino.dir\src\slot.cpp.obj"
 
 # External object files for target casino
 casino_EXTERNAL_OBJECTS =
 
 casino.exe: CMakeFiles\casino.dir\main.cpp.obj
+casino.exe: CMakeFiles\casino.dir\src\blackjack.cpp.obj
+casino.exe: CMakeFiles\casino.dir\src\game.cpp.obj
+casino.exe: CMakeFiles\casino.dir\src\player.cpp.obj
+casino.exe: CMakeFiles\casino.dir\src\slot.cpp.obj
 casino.exe: CMakeFiles\casino.dir\build.make
 casino.exe: CMakeFiles\casino.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable casino.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable casino.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\casino.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\casino.dir\objects1.rsp @<<
  /out:casino.exe /implib:casino.lib /pdb:C:\Users\joshb\OneDrive\Documents\cpp_projects\casino\cmake-build-debug\casino.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

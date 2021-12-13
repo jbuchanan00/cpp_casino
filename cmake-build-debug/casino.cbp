@@ -85,6 +85,30 @@
 		<Unit filename="C:/Users/joshb/OneDrive/Documents/cpp_projects/casino/main.cpp">
 			<Option target="casino"/>
 		</Unit>
+		<Unit filename="C:/Users/joshb/OneDrive/Documents/cpp_projects/casino/src/blackjack.cpp">
+			<Option target="casino"/>
+		</Unit>
+		<Unit filename="C:/Users/joshb/OneDrive/Documents/cpp_projects/casino/src/blackjack.h">
+			<Option target="casino"/>
+		</Unit>
+		<Unit filename="C:/Users/joshb/OneDrive/Documents/cpp_projects/casino/src/game.cpp">
+			<Option target="casino"/>
+		</Unit>
+		<Unit filename="C:/Users/joshb/OneDrive/Documents/cpp_projects/casino/src/game.h">
+			<Option target="casino"/>
+		</Unit>
+		<Unit filename="C:/Users/joshb/OneDrive/Documents/cpp_projects/casino/src/player.cpp">
+			<Option target="casino"/>
+		</Unit>
+		<Unit filename="C:/Users/joshb/OneDrive/Documents/cpp_projects/casino/src/player.h">
+			<Option target="casino"/>
+		</Unit>
+		<Unit filename="C:/Users/joshb/OneDrive/Documents/cpp_projects/casino/src/slot.cpp">
+			<Option target="casino"/>
+		</Unit>
+		<Unit filename="C:/Users/joshb/OneDrive/Documents/cpp_projects/casino/src/slot.h">
+			<Option target="casino"/>
+		</Unit>
 		<Unit filename="C:/Users/joshb/OneDrive/Documents/cpp_projects/casino/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
