@@ -21,10 +21,23 @@ while(slot1.get_multiplier() < 2){
     << static_cast<double>(two) / static_cast<double>(total) << std::endl;
   Sleep(1000);
 }*/
-    Blackjack b1;
-    b1.deal();
-    while(b1.get_numeric_card_values() < 16 && !b1.get_bust()){
-        b1.hit();
-    }
+bool game = true;
+int option;
+std::cout << "*****Welcome to the Casino!*****\n";
+std::cout << "How much money will you be starting with?\n";
+float starting_funds;
+std::cin >> starting_funds;
+std::cout << "What is the username you would like to use?\n";
+std::string username;
+Player user1(starting_funds, username);
+std::cin >> username;
+
+while(game){
+  std::cout << "Do you want to continue the game? 1-Yes 2-No" << std::endl;
+  std::cin >> option;
+  if(option == 2) {
+    game = false;
+  }
+}
     return 0;
 }
