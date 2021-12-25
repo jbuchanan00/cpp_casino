@@ -115,6 +115,7 @@ void Blackjack::determine_win(std::string card_val) {
     bust();
   }
   std::cout << total_val << std::endl;
+  std::cout << get_dealer_val() << std::endl;
 }
 
 int Blackjack::card_count(std::string card_val){
